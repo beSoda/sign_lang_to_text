@@ -23,25 +23,23 @@ We will be using `Visual Studio Code` as our main platform to run this model.
   1. Download the ZIP FILE
 <img width="619" height="387" alt="codezip" src="https://bpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/b/3044/files/2021/05/github.png" />
 
-  2. Extract "sign_lang_to_text" to download.
-  
-  3. Extract "sign_lang_to_text" from zip file to download.
+  2. Extract "sign_lang_to_text" from zip file to download.
 
-  4. Open the Extracted folder.
+  3. Open the Extracted folder.
 
-  5. Open the terminal`(Ctrl + ~)` and run:
+  4. Open the terminal`(Ctrl + ~)` and run:
      ```
      python -m venv myenv
      ```
      This will create a folder named `myenv` with your virtual environment. `myenv` can be replaced with any other name you wish.
 
-  6. Activate the environment by running:
+  5. Activate the environment by running:
      ```
      \myenv\Scripts\activate
      ```
      After this, your terminal should show `(myenv)` in green - this means you are in the virtual environment.
 
-  7. Install the required libraries:
+  6. Install the required libraries:
      ```
      pip install torch numpy opencv-python mediapipe
      ```
